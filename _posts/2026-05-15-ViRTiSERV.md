@@ -158,6 +158,239 @@ cecelia.ns.cloudflare.com       AAAA IPv6 address = 2803:f800:50::6ca2:c287
 C:\Users\PAC>
 
 ```
+
+
+<<>> DiG 9.20.22 <<>> whitehouse.gov NS +trace ;; global options: +cmd ;; no servers could be reached whithouse.gov has address 198.51.100.91 whithouse.gov has address 198.51.100.91 trumpcard.gov has address 198.51.100.91 trumpcard.gov has address 198.51.100.91 trumpcard.gov mail is handled by 61 route3.mx.cloudflare.net.
+trumpcard.gov mail is handled by 23 route2.mx.cloudflare.net. trumpcard.gov mail is handled by 60 route1.mx.cloudflare.net. trumpcard.gov has HTTP service bindings 1 . alpn="h2" ipv4hint=104.18.18.173,104.18.19.173 ipv6hint=2606:4700::6812:12ad,2606:4700::6812:13ad commerce.gov has address 172.65.90.25 commerce.gov has address 172.65.90.24 commerce.gov has address 172.65.90.27 commerce.gov has address 172.65.90.26
+commerce.gov has IPv6 address 2606:4700:78::90:0:181 commerce.gov has IPv6 address 2606:4700:78::90:0:180 commerce.gov has IPv6 address 2606:4700:78::90:0:182 commerce.gov has IPv6 address 2606:4700:78::90:0:183
+commerce.gov mail is handled by 0 commerce-gov.mail.protection.outlook.com.
+usgs.gov has address 137.227.229.78usgs.gov mail is handled by 0 usgs-gov.mail.protection.outlook.com.
+pbs.org has address 54.225.206.152
+pbs.org has address 54.225.198.196 pbs.org mail is handled by 10 pbs-org.mail.protection.outlook.com.
+Server: 8.8.8.8 Address: 8.8.8.8#53         
+Non-authoritative answer: usps.com nameserver = dns082.usps.com.
+usps.com nameserver = dns141.usps.com.                         
+Authoritative answers can be found from: dns141.usps.com internet address = 56.0.141.25 dns082.usps.com internet address = 56.0.82.25
+dns141.usps.com has AAAA address 2610:68:3130:25:6010::25
+dns082.usps.com has AAAA address 2610:68:5130:11:1410::25
+                                   Server: 8.8.8.8 Address: 8.8.8.8#53
+                                   Non-authoritative answer: usps.com mail exchanger = 10 mxb-0038fd02.gslb.gpphosted.com. usps.com mail exchanger = 10 mxa-0038fd02.gslb.gpphosted.com.
+                                   Authoritative answers can be found from: ; <<>> DiG 9.20.22 <<>> usps.com ANY
+;; global options: +cmd ;; Got answer: ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52363
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1  
+;; OPT PSEUDOSECTION: ; EDNS: version: 0, flags:; udp: 1232 ; COOKIE: 189a0dfa2027c0f2619fe4a76a19a6133d38778ed544ee2d (good) ;; QUESTION SECTION:
+;usps.com. INANY
+                                   ;; ANSWER SECTION: usps.com. 3599 INMX 10 mxa-0038fd02.gslb.gpphosted.com. usps.com. 3599 INMX 10 mxb-0038fd02.gslb.gpphosted.com.
+usps.com. 162 INA56.0.134.100 usps.com. 3599 INNS dns082.usps.com.
+usps.com. 3599 INNS dns141.usps.com.
+                                   ;; Query time: 72 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (TCP)
+;; WHEN: Fri May 29 07:43:29 PDT 2026 ;; MSG SIZE rcvd: 196
+                                   Server: 8.8.8.8
+Address: 8.8.8.8#53
+
+Non-authoritative answer:
+wp1-ext.usps.gov canonical name = wildcard.usps.com.edgekey.net. wildcard.usps.com.edgekey.net canonical name = e6531.dsca.akamaiedge.net.
+                                   Authoritative answers can be found from: dsca.akamaiedge.net origin = n0dsca.akamaiedge.net mail addr = hostmaster.akamai.com
+        serial = 1780065811
+        refresh = 1000
+        retry = 1000 expire = 1000 minimum = 1800 Server: 8.8.8.8 Address: 8.8.8.8#53
+                                   Non-authoritative answer: wp1-ext.usps.gov canonical name = wildcard.usps.com.edgekey.net.
+wildcard.usps.com.edgekey.net canonical name = e6531.dsca.akamaiedge.net.
+                                   Authoritative answers can be found from: dsca.akamaiedge.net
+        origin = n0dsca.akamaiedge.net
+        mail addr = hostmaster.akamai.com
+        serial = 1780065811
+        refresh = 1000 retry = 1000
+        expire = 1000
+        minimum = 1800
+
+
+; <<>> DiG 9.20.22 <<>> wp1-ext.usps.gov ANY ;; global options: +cmd
+;; Got answer: ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27556 ;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1  
+;; OPT PSEUDOSECTION: ; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 2eafdbad3243850a60b141f06a19a61369dd19dfb000dcb6 (good) ;; QUESTION SECTION:
+;wp1-ext.usps.gov. INANY
+
+;; ANSWER SECTION: wp1-ext.usps.gov. 300 INRRSIG CNAME 7 3 300 20260602042531 20260523042150 36053 usps.gov. Ryk8I/ZqX5cafGd1rAr4MqZVixvro/gjEVXqG4uEd36/Y+rlapLGEokT 78yG1nVSLLDGrN0TKbJnsZYh4kbDHC+OqUlDoqDW2TDaXSh94h5ncVBL JRkrf2TeWp0jnvUuD1jzYu5Xuwe/v4PG7R95qhs7blgzjq+RohXMj58r hGw=
+wp1-ext.usps.gov. 300 INCNAME wildcard.usps.com.edgekey.net.
+                                   ;; Query time: 60 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (TCP) ;; WHEN: Fri May 29 07:43:30 PDT 2026
+;; MSG SIZE rcvd: 284
+                                   Server: 8.8.8.8
+Address: 8.8.8.8#53         
+Non-authoritative answer:
+uspto.com mail exchanger = 0 mail.uspto.com.
+
+Authoritative answers can be found from:
+
+Server: 8.8.8.8
+Address: 8.8.8.8#53         
+Non-authoritative answer: uspto.com nameserver = ns5.mpower.nl. uspto.com nameserver = ns6.mpower.nl.                           
+Authoritative answers can be found from:
+ns5.mpower.nl internet address = 217.18.70.157
+ns6.mpower.nl internet address = 217.18.70.158
+                                   Trying "gov.uk" ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 192
+;; flags: qr rd ra; QUERY: 1, ANSWER: 9, AUTHORITY: 0, ADDITIONAL: 0  
+;; QUESTION SECTION: ;gov.uk. IN ANY
+
+;; ANSWER SECTION: gov.uk. 172774 INRRSIG NS 8 2 172800 20260701171710 20260527164230 52549 gov.uk. LpFqA5K1EjO71s/GFFZtBTXwZfmrXCsTR4JykTesACp0M6DBBmZ1H5/3 8em2mFLHsEAOu5YGWF/ttH73xSCBUxivU44wgkOX38pwiT1eCi3VvEoC +Yq9uB23i4ZuIiX8odql4hIWR7NhQYUgdnHGF8zs/rq+cSaTsRVYdIDh vr5VTujlg/z9v/DKTTYol6BnzjY3V/iq8JZjsB1A6p/WCyF4aHjK2AKg eMdcT8sHbhTvEje/zihTDpcHPCIsgyNCRmzqaWwmq3kS/a6whhFo7G7W 3XWy0gBdJpUsememCpaDQ0bv3fR8yy2GUbAXakOy+5/uHZsmZBK92ai/ +w+TPA== gov.uk. 172774 INNS dns4.nic.uk. gov.uk. 172774 INNS dns2.nic.uk. gov.uk. 172774 INNS nsd.nic.uk. gov.uk. 172774 INNS dns1.nic.uk. gov.uk. 172774 INNS nsc.nic.uk.
+gov.uk. 172774 INNS dns3.nic.uk.
+gov.uk. 172774 INNS nsa.nic.uk.
+gov.uk. 172774 INNS nsb.nic.uk.
+
+Received 470 bytes from 8.8.8.8#53 in 44 ms
+^C .../0/Download $ p                 
+
+On Fri, May 29, 2026, 5:58 AM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+https://archive.org/download/vid-20260411-163609-170/City%20Hall%20Wi-Fi%20and%20ward.gov%20DNS%20plus%20the%20treasuryscreen-20260529-024607%20%281%29.mp4 @Whs Pentagon Esd Mbx Secrev Charles bolden work at USC as well @douglas.j.newman@nasa.gov @HollyJMitchell@bos.lacounty.gov someone at USC should check the position on the map of the server and we can start diagnosed how to fix the problem we can really fix it with a notary some cell phones and I don't know what else to say you guys got all the power there @letschat@virtiserv.com morning.... 
+
+On Fri, May 29, 2026, 2:45 AM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+usc5.akam.net where is this host @centcom.macdill.centcom-hq.mbx.family-readiness@mail.mil @report@cisa.gov @kathryn@bos.lacounty.gov @jasmine.crockett@mail.house.gov @douglas.j.newman@nasa.gov 
+~/storage/shared $ nslookup war.gov
+Server:         8.8.8.8
+Address:        8.8.8.8#53
+
+Non-authoritative answer:
+Name:   war.gov
+Address: 23.53.35.139
+Name:   war.gov
+Address: 23.53.35.142
+Name:   war.gov
+Address: 2600:1404:1200:29::1726:6f0a
+Name:   war.gov
+Address: 2600:1404:1200:29::1726:6f08
+
+~/storage/shared $ nslookup -type=mx war.gov
+Server:         8.8.8.8
+Address:        8.8.8.8#53
+
+Non-authoritative answer:
+*** Can't find war.gov: No answer
+
+Authoritative answers can be found from:
+war.gov
+        origin = asia2.akam.net
+        mail addr = hostmaster.war.gov
+        serial = 2025090513
+        refresh = 3600
+        retry = 600
+        expire = 604800
+        minimum = 300
+
+~/storage/shared $ nslookup -type=ns war.gov
+Server:         8.8.8.8
+Address:        8.8.8.8#53
+
+Non-authoritative answer:
+war.gov nameserver = use2.akam.net. @usnavy
+war.gov nameserver = eur6.akam.net. @esa 
+war.gov nameserver = usc5.akam.net. @usc @blackgirlscode
+war.gov nameserver = asia2.akam.net. @nasa-pds
+war.gov nameserver = use9.akam.net.
+war.gov nameserver = ns1-95.akam.net.
+war.gov nameserver = asia3.akam.net. @jaxa @cisco @deptofwar @fbicyber
+war.gov nameserver = ns1-116.akam.net.
+
+Authoritative answers can be found from:
+
+~/storage/shared $ nslookup -type=ns home.treasury.gov
+Server:         8.8.8.8
+Address:        8.8.8.8#53
+
+Non-authoritative answer:
+home.treasury.gov       canonical name = home.treasury.gov.edgekey.net.
+home.treasury.gov.edgekey.netcanonical name = e289631.dscb.akamaiedge.net.
+
+Authoritative answers can be found from:
+dscb.akamaiedge.net
+        origin = n0dscb.akamaiedge.net
+        mail addr = hostmaster.akamai.com
+        serial = 1780047904
+        refresh = 1000
+        retry = 1000
+        expire = 1000
+        minimum = 1800
+
+~/storage/shared @letschat@virtiserv.com 
+
+On Fri, May 29, 2026, 2:26 AM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+@ksc-newsroom@mail.nasa.gov @jplnewsroom@jpl.nasa.gov @customer_services_dfcs@dhs.ga.gov @letschat@virtiserv.com @HollyJMitchell@bos.lacounty.gov https://archive.org/download/2025-12-20-00-00-2025-12-20-23-59-sentinel-2-l-2-a-true-color/part%203%20supervisor%20Holly%20j%20Mitchell%20closing%20out%20for%20tonight%20trying%20to%20get%20sleep%20while%20being%20actively%20attacked%20electronically%20sleep%20deprivation%20and%20technology%20will%20be%20discussed%20at%20some%20pointVID_20260529_020444_171.mp4 @operations@wearebgc.org @openjustice@doj.ca.gov @normani@fifthharmonyofficial.com 
+
+On Fri, May 29, 2026, 1:52 AM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+@letschat@virtiserv.com this video is about 1 GB and around 8 minutes long
+
+https://archive.org/download/2025-12-20-00-00-2025-12-20-23-59-sentinel-2-l-2-a-true-color/part%202%20supervisor%20Holly%20Mitchell%20relationships%20and%20marijuana%20Richard%20Kelly%20nasaJpl_VID_20260529_010848_829.mp4
+
+  warning for cellular I assume @customer_services_dfcs@dhs.ga.gov  can see this but I'm a compress the video for Tumblr @normani@fifthharmonyofficial.com @answers@usgs.gov @The White House @phylicia.rashad@howard.edu @homiehelpline@power106.com @HollyJMitchell@bos.lacounty.gov clearing the air @douglas.j.newman@nasa.gov @councilmember.harris-dawson@lacity.org @dsnnow@jpl.nasa.gov @Whs Pentagon Esd Mbx Secrev 
+
+On Fri, May 29, 2026, 12:52 AM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+@Secretary.Weber@sos.ca.gov @HollyJMitchell@bos.lacounty.gov https://archive.org/download/2025-12-20-00-00-2025-12-20-23-59-sentinel-2-l-2-a-true-color/part%201%20to%20supervisor%20Holly%20Mitchell%20illegal%20software%20past%20ownership%20rights%20surviving%20treason%20and%20pornography%20exposureVID_20260529_003521_657.mp4 @letschat@virtiserv.com 
+
+On Fri, May 29, 2026, 12:30 AM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+https://archive.org/download/chd_psx/CHD-PSX-USA/Jumping%20Flash%21%20%28USA%29.chd @operations@wearebgc.org @openjustice@doj.ca.gov @letschat@virtiserv.com @normani@fifthharmonyofficial.com play till you can feel it you will learn a lot in coding jumping physics homework idea contribution @HollyJMitchell@bos.lacounty.gov @keishaforgovernor@gmail.com 
+
+On Thu, May 28, 2026, 11:51 PM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+https://www.tumblr.com/rashardmro/817928173879689216/s?source=share
+
+@info@fire.lacounty.gov @Lafdrequest @HollyJMitchell@bos.lacounty.gov @douglas.j.newman@nasa.gov @FirstDistrict@bos.lacounty.gov @normani@fifthharmonyofficial.com @usarmy.hunter.id-readiness.mbx.usag-command-group@army.mil @letschat@virtiserv.com @contact.lapdonline@gmail.com @councilmember.harris-dawson@lacity.org 
+On Thu, May 28, 2026, 6:54 PM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+@kathryn@bos.lacounty.gov Static thermals https://firms.modaps.eosdis.nasa.gov/map/#m:advanced;d:24hrs,today;l:fires_landsat_landsat,fires_modis_aqua,fires_modis_terra,fires_viirs_noaa20,fires_viirs_noaa21,fires_viirs_snpp,cement_plants,gas_flares=2023,gi_steel_plants,mineral_resources,nonferrous_metal,petro_chemical,power_biomass,power_coal,power_gas,power_geothermal,power_hydro,power_oil,power_other,power_solar,power_storage,power_wind,sta_detections,sta_mask,steel_plants,country-outline,earth;@-87.9,35.7,4.8z  @councilmember.lee@lacity.org @keishaforgovernor@gmail.com 
+
+image.png
+
+FIRMS_24hrs,today[@-87.9,35.7,4.8z].png
+
+
+On Thu, May 28, 2026 at 6:43 PM Rashard Iman Kelly <holetoanotheruniverse40@gmail.com> wrote:
+@jisaacman@shift4.com @douglas.j.newman@nasa.gov hi https://irsa.ipac.caltech.edu/ibe/data/spherex/qr2/level2/2025W20_1C/l2b-v20-2025-247/2 im trying to find something straight forward for using .fit files @letschat@virtiserv.com @earthdata-support@nasa.gov thats the link wit 
+
+https://irsa.ipac.caltech.edu/ibe/data <~ @keishaforgovernor@gmail.com that has spereX data <~ @benefits@howard.edu @HollyJMitchell@bos.lacounty.gov @ThirdDistrict@bos.lacounty.gov @disa.gsd.infrastructure@mail.mil @CISAMedia@cisa.dhs.gov 
+
+https://irsa.ipac.caltech.edu/Missions/spherex.html
+SPHEREx is managed by the Jet Propulsion Laboratory near Pasadena, California, for NASA’s Science Mission Directorate in Washington. The mission’s Principal Investigator is based at Caltech, which will also develop the payload in collaboration with JPL. Ball Aerospace will supply the spacecraft. The Korea Astronomy and Space Science Institute (KASI) is an instrument and science partner for the mission. Data will be processed and archived at IPAC at Caltech. JPL is managed by Caltech for NASA. In addition to scientists from Caltech, JPL, and KASI, the scientific analysis will be carried out by SPHEREx Science Team scientists located at numerous institutions.
+
+SPHEREx Partners
+SPHEREx Business Team
+SPHEREx Engineering Team
+SPHEREx Project Office
+SPHEREx Science Team
+image.png
+image.png
+Home |	Verifier |	News |	Docs |	WCS |	Samples |	Libraries |	Viewers |	Utilities |	Keywords |	Conventions |	Resources
+The FITS Support Office
+at NASA/GSFC
+What is FITS?
+The standard data format used in astronomy
+Stands for 'Flexible Image Transport System'
+Endorsed by NASA and the International Astronomical Union
+Much more than just another image format (such as JPEG or GIF)
+Used for the transport, analysis, and archival storage of scientific data sets
+Multi-dimensional arrays: 1D spectra, 2D images, 3D+ data cubes @normani@fifthharmonyofficial.com @councilmember.harris-dawson@lacity.org 
+Tables containing rows and columns of information
+Header keywords provide descriptive information about the data
+Supports state-of-the-art data compression methods
+See also the descriptions on the Wikipedia and Library of Congress Web sites.
+Online FITS format Verifier
+Test whether a FITS file conforms to the FITS format requirements
+Information about FITS
+News: latest news regarding FITS
+Documentation: user's guides, definition documents and other FITS papers
+FITS Image Software Packages
+for image viewing, analysis, and format conversion
+The following software packages display or manipulate the relatively simple class of FITS data files that containing 2-dimensional images, often of celestial objects in the night sky. It should be noted that FITS is a very general data format that is used for many different types of astronomical data sets, so these packages are not necessarily capable of reading every type of FITS file. Developers of new image display programs should be aware of the special requirements for effectively displaying FITS images.
+FITS Image Viewers
+Image viewers for PC and Macs - an extensive listing of commercial and freeware image processing software compiled by the Astronomy Education Committee.
+Aladin - Interactive Sky Atlas
+APLpy - Astronomical Plotting Library in Python is a Python module aimed at producing publication-quality plots of astronomical imaging data in FITS format.
+Aperture Photometry Tool - interactive software tool for visualizing and performing aperture photometry measurements on astronomical images.
+Error Icon
+Message blocked
+Your message to jplnewsroom@jpl.nasa.gov has been blocked. See technical details below for more information.
+The response from the remote server was:
+550 5.7.0 Local Policy Violation
+
+
 <iframe src="https://archive.org/embed/longbeach_202605" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
 <img  alt="image" src="https://github.com/user-attachments/assets/5192ff90-61f8-4714-849f-f8d7e819124e" />
